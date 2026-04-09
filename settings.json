@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "noook.aternos.me",
-    "port": 54715,
+    "ip": "sinook.aternos.me",
+    "port": 40033,
     "version": "1.21.11",
     "try-creative": false
   },
@@ -42,14 +42,14 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
@@ -69,7 +69,7 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": true,
+    "pick-up-day": false,
     "place-night": true
   },
   "discord": {
